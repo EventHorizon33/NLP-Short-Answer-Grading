@@ -116,10 +116,10 @@ Raw CSV  ->  Clean Text  ->  TF-IDF Vectors  ->  Classifier  ->  Evaluation
 
 | Model | Split | Accuracy | F1 (weighted) |
 |-------|-------|----------|----------------|
-| Logistic Regression | Dev  | 6272727272727273 | 6016087766457409 |
-| Logistic Regression | Test | 6493653032440057 | 6296786665097807 |
-| LinearSVC           | Dev  | 6260606060606061 | 6157163089803738 |
-| LinearSVC           | Test | 6409026798307476 | 6341102894086955 |
+| Logistic Regression | Dev  | 0.6272727272727273 | 0.6016087766457409 |
+| Logistic Regression | Test | 0.6493653032440057 | 0.6296786665097807 |
+| LinearSVC           | Dev  | 0.6260606060606061 | 0.6157163089803738 |
+| LinearSVC           | Test | 0.6409026798307476 | 0.6341102894086955 |
 
 
 ### Confusion Matrix (LinearSVC - Test Set)
