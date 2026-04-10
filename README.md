@@ -89,8 +89,11 @@ Download from [Kaggle](https://www.kaggle.com/datasets/azzouza2018/semevaldatade
 # Step 1 - Preprocess (optional standalone check)
 python preproc.py
 
-# Step 2 - Train and evaluate
-python train_and_evaluate.py
+# Step 2 - Train the model
+python model.py
+
+# Step 3 - Evaluate 
+python eval.py
 ```
 
 Output saved to `results/` and `artifacts/`.
